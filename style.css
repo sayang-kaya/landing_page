@@ -46,11 +46,11 @@ ul{
     padding: 100px;
     padding-left: 200px;
     padding-right: 200px;
+    gap: 70px;
     
 }
 .first-content{
     max-width: 450px;
-
 }
 .first-title{
     color: #f9faf8;
@@ -66,4 +66,44 @@ ul{
 button{
  background-color: #3882F6;
  color: white;
+}
+.image{
+    background-color: #6c727b;
+    color: white;
+    padding: 100px;
+    width: 600px;
+    text-align: center;
+    text-justify: center
+    ;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-title{
+    padding: 50px;
+    font-size:36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.second-content{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    gap: 75px;
+    justify-content: center;
+}
+.description{
+    max-width: 150px;
+    text-align: center;
+    color:#6c727b;
+}
+.border{
+    border:4px solid blue;
+    border-radius: 20px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;  
+    margin-bottom: 10px;
 }
