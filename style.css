@@ -68,9 +68,10 @@ button{
     color: white;
     border: 0px;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    width: 125px;
+    height: 35px;
     font-size: 16px;
+    font-weight: bold;
 }
 .image{
     background-color: #6c727b;
@@ -137,28 +138,38 @@ button{
 }
 .footer{
     display: flex;
-    margin: 150px;
+    margin: 100px;
     justify-content: center;
     align-items: center;
 }
 .popup{
     background-color: #3882F6;
-    height: 125px;
-    width: 800px;
+    height: 150px;
+    width: 950px;
     border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.popup-text{
-    color:#e5e7eb;
-}
 .popup-header{
-    
+    font-weight: bold;
+    font-size: 24px;
+    color:#f9faf8;
 }
 
+.popup-content{
+    color:#e5e7eb
+}
+
+#popup-button{
+    border: 2px solid #f9faf8;
+}
 .bottom{
     display: flex;
     flex: 1;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px;
+    color:#e5e7eb;
 }
